@@ -1,4 +1,6 @@
+import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import { CircleQuestionMark } from "lucide-react";
 import React from "react";
 
 const FAQItems = [
@@ -37,6 +39,9 @@ const FAQSection = () => {
           {/* <SectionLabel className="mb-[14px]" icon={CircleQuestionMark}>
             FAQ
           </SectionLabel> */}
+          <Badge className="bg-primary/60">
+            <CircleQuestionMark /> <span className="text-primary">FAQ</span>
+          </Badge>
           <h2
             className={cn(
               "text-[clamp(32px,5vw,52px)] font-semibold leading-[1.15] tracking-[-0.5px] text-foreground",
