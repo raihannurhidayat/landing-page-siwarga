@@ -42,13 +42,13 @@ const FAQSection = () => {
   return (
     <section className="py-24">
       <div className="mx-auto max-w-275 px-6">
-        <div className="text-center">
+        <div className="text-center space-y-6">
           <Badge className="inline-flex items-center gap-1.5 rounded-[20px] border px-3.5 py-1.25 text-[12px] font-semibold uppercase tracking-[0.4px] border-primary/20 bg-secondary text-primary">
             <CircleQuestionMark /> <span className="text-primary">FAQ</span>
           </Badge>
           <h2
             className={cn(
-              "text-[clamp(32px,5vw,52px)] font-semibold leading-[1.15] tracking-[-0.5px] text-foreground",
+              "text-[clamp(32px,5vw,52px)] font-semibold leading-[1.15] tracking-[-0.5px] text-foreground ",
             )}
           >
             Pertanyaan yang

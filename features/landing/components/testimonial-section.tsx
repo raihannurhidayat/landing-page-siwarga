@@ -35,7 +35,7 @@ const TestimonialSection = () => {
   return (
     <section className="bg-[#fdf3e3] py-27">
       <div className="mx-auto max-w-275 px-6">
-        <div className="text-center">
+        <div className="text-center space-y-6">
           <Badge className="inline-flex items-center gap-1.5 rounded-[20px] border px-3.5 text-[12px] font-semibold uppercase tracking-[0.4px] border-[#f0d9a8] bg-[#fdf3e3] text-[#c9973a] py-2">
             <Star /> <span>Kata Warga</span>
           </Badge>
