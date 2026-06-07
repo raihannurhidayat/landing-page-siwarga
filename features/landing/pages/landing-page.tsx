@@ -6,6 +6,7 @@ import { TwoViews } from "../components/two-views-section";
 import FAQSection from "../components/faq-section";
 import TestimonialSection from "../components/testimonial-section";
 import HowItWorksSection from "../components/how-it-works-section";
+import ContactLanding from "../components/contacts";
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,8 @@ const LandingPage = () => {
       <TwoViews />
       <FAQSection />
       <TestimonialSection />
+      <FAQSection />
+      <ContactLanding />
     </div>
   );
 };
