@@ -185,7 +185,7 @@ function ModulItem({
     );
 }
 
-export function DuaTampilan() {
+export function TwoViews() {
     const { ref: ref1, visible: vis1 } = useReveal();
     const { ref: ref2, visible: vis2 } = useReveal();
 
