@@ -5,10 +5,7 @@ function PublicLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Navbar />
-      <main>
-        Public layout
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   );
