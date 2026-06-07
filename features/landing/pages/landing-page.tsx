@@ -16,7 +16,6 @@ const LandingPage = () => {
       <Highlight />
       <HowItWorksSection />
       <TwoViews />
-      <FAQSection />
       <TestimonialSection />
       <FAQSection />
       <ContactLanding />
