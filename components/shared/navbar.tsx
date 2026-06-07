@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 function Navbar() {
   return (
-    <header className="w-full border-b border-b-border">
+    <header className="hidden w-full border-b border-b-border md:block">
       <div className="flex items-center justify-between w-full px-4 py-4 mx-auto max-w-275">
         <Link href="/" className="flex items-center gap-2 pl-2 pr-4">
           <div className="p-2 rounded-md bg-primary text-primary-foreground">
