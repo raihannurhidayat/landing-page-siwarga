@@ -38,35 +38,6 @@ const FAQItems = [
   },
 ];
 
-const AccordionPlusMinusIconDemo = () => {
-  return (
-    <Accordion
-      type="single"
-      collapsible
-      className='w-full border-0 [&>*>[data-slot="accordion-content"]]:px-0'
-      defaultValue="item-1"
-    >
-      {FAQItems.map((item, index) => (
-        <AccordionItem key={index} value={`item-${index + 1}`}>
-          <AccordionPrimitive.Header className="flex">
-            <AccordionPrimitive.Trigger
-              data-slot="accordion-trigger"
-              className="focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-center justify-between gap-4 border border-transparent px-2 py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:ring-3 disabled:pointer-events-none disabled:opacity-50"
-            >
-              {item.question}
-              <PlusIcon className="text-muted-foreground pointer-events-none block size-4 shrink-0 transition-transform duration-500 in-data-open:hidden" />
-              <MinusIcon className="text-muted-foreground pointer-events-none hidden size-4 shrink-0 transition-transform duration-500 in-data-open:block" />
-            </AccordionPrimitive.Trigger>
-          </AccordionPrimitive.Header>
-          <AccordionContent className="text-muted-foreground px-2">
-            {item.answer}
-          </AccordionContent>
-        </AccordionItem>
-      ))}
-    </Accordion>
-  );
-};
-
 const FAQSection = () => {
   return (
     <section className="py-24">
@@ -82,7 +53,9 @@ const FAQSection = () => {
           >
             Pertanyaan yang
             <br />
-            <em className="italic text-primary">sering ditanyakan</em>
+            <em className="italic text-primary font-fraunces">
+              sering ditanyakan
+            </em>
           </h2>
         </div>
 
